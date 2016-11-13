@@ -1,3 +1,47 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  text-align: center;
+  color: #512da8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #757575;
+}
+
+li a {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #512da8;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+footer {
+  background-color: #757575;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright {
+  font-size: 2em;
+  color: #512da8;
+}
