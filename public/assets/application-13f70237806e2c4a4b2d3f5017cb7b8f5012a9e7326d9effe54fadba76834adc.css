@@ -1,0 +1,66 @@
+/* line 5, /home/mira/helloworldapp/app/assets/stylesheets/static_pages.scss */
+h1 {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  text-align: center;
+  color: #512da8;
+}
+
+/* line 11, /home/mira/helloworldapp/app/assets/stylesheets/static_pages.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #757575;
+}
+
+/* line 19, /home/mira/helloworldapp/app/assets/stylesheets/static_pages.scss */
+li a {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* line 27, /home/mira/helloworldapp/app/assets/stylesheets/static_pages.scss */
+li a.active {
+  background-color: #512da8;
+  color: white;
+}
+
+/* line 32, /home/mira/helloworldapp/app/assets/stylesheets/static_pages.scss */
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* line 37, /home/mira/helloworldapp/app/assets/stylesheets/static_pages.scss */
+footer {
+  background-color: #757575;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* line 44, /home/mira/helloworldapp/app/assets/stylesheets/static_pages.scss */
+.copyright {
+  font-size: 2em;
+  color: #512da8;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
